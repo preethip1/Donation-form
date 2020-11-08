@@ -10,6 +10,7 @@
     height: 700px;
     display: flex;
     flex-direction: column;
+    margin: 80px;
   }
   .name-input {
     display: flex;
@@ -18,6 +19,7 @@
     margin: 2%;
     padding: 2%;
     border-radius: 10px;
+    margin-bottom: 25px;
   }
   .phone-input {
     display: flex;
@@ -27,6 +29,8 @@
     margin: 2%;
     padding: 2%;
     border-radius: 10px;
+    margin-bottom: 25px;
+
   }
   .birthday-input {
     display: flex;
@@ -35,6 +39,8 @@
     margin: 2%;
     padding: 2%;
     border-radius: 10px;
+    margin-bottom: 25px;
+
   }
   .email-input {
     display: flex;
@@ -43,6 +49,8 @@
     margin: 2%;
     padding: 2%;
     border-radius: 10px;
+    margin-bottom: 25px;
+
   }
   .donation-date {
     display: flex;
@@ -51,6 +59,8 @@
     margin: 2%;
     padding: 2%;
     border-radius: 10px;
+    margin-bottom: 25px;
+
   }
   .address-input {
     display: flex;
@@ -59,6 +69,8 @@
     margin: 2%;
     padding: 2%;
     border-radius: 10px;
+    margin-bottom: 25px;
+
   }
   .pincode-input {
     display: flex;
@@ -67,6 +79,8 @@
     margin: 2%;
     padding: 2%;
     border-radius: 10px;
+    margin-bottom: 25px;
+  
   }
   .payment,
   .payment-input {
@@ -76,6 +90,7 @@
     margin: 2%;
     padding: 2%;
     border-radius: 10px;
+
   }
   .amount-input {
     display: flex;
@@ -84,6 +99,7 @@
     margin: 2%;
     padding: 2%;
     border-radius: 10px;
+
   }
   .period-input {
     display: flex;
@@ -92,12 +108,20 @@
     margin: 2%;
     padding: 2%;
     border-radius: 10px;
+    margin-bottom: 25px;
+
   }
   .submit-input {
     display: flex;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
+    margin-top: 40px;
+    background-color: #46a4e8;
+  }
+  h3 {
+    margin-left: 25px; 
+    margin-top: 30px;
   }
 </style>
 
@@ -145,4 +169,6 @@
 
   <button on:click={submit} class="submit-input" placeholder="submit">Submit
   </button>
+  <h3> Thank You! Your Support is greatly appreciated!</h3>
+
 </div>
